@@ -6,6 +6,7 @@ GROUP PLAN with SMART Criteria
 **Before Nov 13 meeting:**
 
 EVERYONE
+
   Realistic Goal(s): 
   - write 1 employee information blurb
   - write content and images for 2 pages
@@ -16,6 +17,7 @@ EVERYONE
   Due: Nov 13 /2021 3pm
 
 REBECCA
+
   Realistic Goal(s): 
   - organize documents on GitHub to prepare for meeting
 
@@ -28,6 +30,7 @@ REBECCA
 **Before following meeting (Wed): TEMPLATE DUE BEFORE THURSDAY LAB FOR BONUS 2%**
 
 EVERYONE
+
   Realistic Goal(s): 
   - create 2 empty pages on GitHub so they can be linked to
 
@@ -37,6 +40,7 @@ EVERYONE
   Due: 17/11/2021
 
 REBECCA
+
   Realistic Goal(s): 
   - design nav bar links at top of page
   - add template text
@@ -47,6 +51,7 @@ REBECCA
 Due: 17/11/2021
 
 TERRIE-ANN
+
   Realistic Goal(s): 
   - design footer at bottom of page
 
@@ -56,6 +61,7 @@ TERRIE-ANN
   Due: 17/11/2021
 
 AIDA
+
   Realistic Goal(s): 
   - create company logo and write slogan
 
@@ -66,6 +72,7 @@ AIDA
 Due: 17/11/2021
            
 SUNAYANA
+
   Realistic Goal(s): 
   - Add Hero image with text on the template page
   - Create webpages for about us and resources
