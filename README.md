@@ -88,10 +88,11 @@ SUNAYANA
 everyone: make 2 pages HTML, add to CSS if necessary
 
 Editing/Proofreading - assign to group members
-ensure all pages have adequate HTML comments (1J)
-ensure all pages, CSS and JS have consistent formatting (1K)
-ensure all pages have responsive design (1C)
-ensure all pages have no spelling or grammar errors (1A)
+
+- ensure all pages have adequate HTML comments (1J)
+- ensure all pages, CSS and JS have consistent formatting (1K)
+- ensure all pages have responsive design (1C)
+- ensure all pages have no spelling or grammar errors (1A)
 
 everyone: add finalized documents to individual GitHub repositories
 
