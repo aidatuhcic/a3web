@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Raleway'; /*font changed by Terrie-Ann*/
     font-size: 50px;
-    color: pink; /*11/11/2021 Terrie-Ann*/
+    color: black; /*11/11/2021 Terrie-Ann*/
 }
 footer { /*footer style by Terrie-Ann*/
 background-color: lightskyblue;
