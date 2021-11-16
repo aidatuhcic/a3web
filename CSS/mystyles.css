@@ -1,5 +1,5 @@
-/* Insert custom CSS to override the template CSS */
 @charset "UTF-8";
+/* Insert custom CSS to override the template CSS */
 
 /* Body element added by Aida on November 15th */
 html, body {
@@ -37,7 +37,8 @@ html, body {
 * Sources: Some elements are derived from https://www.w3schools.com/howto/howto_css_hero_image.asp, however not all.
            Will put extra comments down below displaying which elements. 
            - The translate element down below allows for an element to be repositioned in a vertical/horizontal direction.
-           - The reason I used it was to align the slogan in the center of the hero image. 
+           - The reason I used it was to align the slogan in the center of the hero image.
+           - Used inspect tool on the browser to figure out the right dimensions for the media queries.  
 * Purpose: The following code down below, formats the slogan in the center of the hero image. 
            - Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
 ***********************/
@@ -61,11 +62,11 @@ html, body {
 }
 
 /* media query for slogan .h1 */
-@media (max-width:769px) {
+@media all and (min-width: 414px) and (max-width: 767px) {
     .slogan h1 {
-        font-size: 3.2em; 
+      font-size: 3.2em; 
     }
-}
+  }
 
 /* paragraph element located in slogan class */
 .slogan p {
@@ -73,12 +74,13 @@ html, body {
     font-style: italic; 
 }
 
-/* media query for slogan .p */
-@media (max-width:769px) {
+/* media query for slogan paragraph element */
+@media all and (min-width: 414px) and (max-width: 767px) {
     .slogan p {
-        font-size: 1.2em; 
+      font-size: 1.2em; 
     }
-}
+  }
+
 /* End Owner: Aida Tuhcic */
 
 /***********************
@@ -89,28 +91,41 @@ html, body {
            Will put extra comments down below displaying which elements. 
            - The translate element down below allows for an element to be repositioned in a vertical/horizontal direction.
            - The reason I used it was to align the button arrow png in the center of the hero image. 
+           - Used inspect tool on the browser to figure out the right dimensions for the media queries. 
 * Purpose: The following code down below, formats the button arrow png in the center of the hero image. 
            - The button arrow png acts as a continue button for the user to continue down to next section of the webpage. 
            - Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
 ***********************/
 
-/* button arrow img */ 
-.button-arrow img {
+/* button arrow class */ 
+.button-arrow { 
     position: absolute; 
-    height: 100px; 
     top: 80%; 
     left: 50%; 
     transform: translate(-50%, -80%); /* Source w3schools. */
 }
 
-/* media query for button arrow img */ 
-@media (max-width:769px) {
-    .button-arrow img {
+/* media query for button arrow class */ 
+@media all and (min-width: 414px) and (max-width: 767px) {
+    .button-arrow {
         position: absolute; 
-        height: 80px; 
         top: 70%;
         left: 50%;  
         transform: translate(-50%, -70%); /* Source w3schools. */
+    }
+}
+
+/* button arrow img */ 
+.button-arrow img {
+    position: inherit; 
+    height: 100px; 
+}
+
+/* media query for button arrow img */ 
+@media all and (min-width: 414px) and (max-width: 767px) {
+    .button-arrow img {
+        position: inherit; 
+        height: 80px; 
     }
 }
 /* End Owner: Aida Tuhcic */
