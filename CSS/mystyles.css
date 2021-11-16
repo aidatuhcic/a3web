@@ -1,6 +1,14 @@
 /* Insert custom CSS to override the template CSS */
 @charset "UTF-8";
 
+/* Body element added by Aida on November 15th */
+html, body {
+    position: absolute;
+    height: 100%; 
+    width: 100%; 
+    overflow-x: hidden;  
+}
+
 /***********************
 * Owner: Aida Tuhcic
 * Date: November 15th 
@@ -42,6 +50,7 @@
     text-align: center; 
     top: 50%; 
     left: 50%;  
+    width: 100%; 
     transform: translate(-50%, -50%); /* Source w3schools. */
 }
 
@@ -54,7 +63,7 @@
 /* media query for slogan .h1 */
 @media (max-width:769px) {
     .slogan h1 {
-        font-size: 3.85em; 
+        font-size: 3.2em; 
     }
 }
 
@@ -67,7 +76,7 @@
 /* media query for slogan .p */
 @media (max-width:769px) {
     .slogan p {
-        font-size: 1.4em; 
+        font-size: 1.2em; 
     }
 }
 /* End Owner: Aida Tuhcic */
@@ -99,10 +108,9 @@
     .button-arrow img {
         position: absolute; 
         height: 80px; 
-        top: 73%;
+        top: 70%;
         left: 50%;  
-        transform: translate(-50%, -73%); /* Source w3schools. */
+        transform: translate(-50%, -70%); /* Source w3schools. */
     }
 }
-
 /* End Owner: Aida Tuhcic */
