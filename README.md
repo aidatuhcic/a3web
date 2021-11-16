@@ -68,9 +68,9 @@ AIDA
   Measure(s) of progress:
   - figured out the issue with the images folder. GitHub is case sensitive. 
   - pushed a new images folder.
-  - created a logo image, continue arrow image for the mock company.  
-  - uploaded logo image to the repository images folder. 
-  - alter HTML/CSS for the template to integrate the logo image, slogan and continue arrow image. 
+  - created a logo image, fav icon, continue arrow image for the mock company.  
+  - uploaded logo image and fav icon to the repository images folder. 
+  - alter HTML/CSS for the template to integrate the logo image, slogan, fav icon and continue arrow image. 
   - added detailed commented code. 
 
 Due: 17/11/2021
