@@ -30,6 +30,13 @@ html, body {
 }
 /* End Owner: Aida Tuhcic */
 
+/*Hero image style by Sunayana*/
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+
 /***********************
 * Owner: Aida Tuhcic
 * Date: November 15th 
@@ -53,6 +60,7 @@ html, body {
     left: 50%;  
     width: 100%; 
     transform: translate(-50%, -50%); /* Source w3schools. */
+
 }
 
 /* h1 element located in slogan class */
