@@ -80,10 +80,13 @@ SUNAYANA
   Realistic Goal(s): 
   - Add Hero image with text on the template page
   - Create webpages for about us and resources
+  - Edit the template and remove unecessary sections
 
   Measure(s) of progress:
-  - upload images into repository folder (2 sizes, large and small)
+  - upload images into repository folder 
   - alter HTML/CSS for template to integrate image if needed
+  - delete unecessary parts of the webpage template such as the footer image and contact section
+  - alter HTML/CSS of the template to make changes to the "About us" section
 
   Due: 17/11/21 
 
