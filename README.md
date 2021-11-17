@@ -63,11 +63,15 @@ TERRIE-ANN
 AIDA
 
   Realistic Goal(s): 
-  - create company logo and write slogan
+  - create company logo, fav icon and write slogan.
 
   Measure(s) of progress:
-  - upload logo image into repository Images folder
-  - alter HTML/CSS for template to integrate image and slogan
+  - figured out the issue with the images folder. GitHub is case sensitive. 
+  - pushed a new images folder.
+  - created a logo image, fav icon, continue arrow image for the mock company.  
+  - uploaded logo image and fav icon to the repository images folder. 
+  - alter HTML/CSS for the template to integrate the logo image, slogan, fav icon and continue arrow image. 
+  - added detailed commented code. 
 
 Due: 17/11/2021
            

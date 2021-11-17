@@ -1,24 +1,5 @@
 @charset "UTF-8";
 
-/***********************
-* Owner: Aida Tuhcic
-* Date: November 15th 
-* Comments: Added css elements to the logo. 
-* Purpose: The following code down below, formats the logo in place - in order for it to align with the navigation bar. 
-           As well, I also resized the image below. 
-***********************/
-.logo {
-    position: absolute; 
-    margin-left: 0px; 
-    margin-top: -45px; 
-}
-
-.logo img {
-    height: 150px;  
-}
-/* End Owner: Aida Tuhcic */
-
-
 h1 {
     font-family:'Raleway'; /*font changed by Terrie-Ann*/
     font-size: 50px;
