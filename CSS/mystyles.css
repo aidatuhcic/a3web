@@ -169,6 +169,7 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
 .dropdown {
     float: left;
     overflow: hidden;
+    color: black;
   }
   
   /* Dropdown button */
