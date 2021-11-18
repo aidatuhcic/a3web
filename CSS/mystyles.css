@@ -165,15 +165,15 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
 /*Drop down menu styling by Rebecca*/
 /*Drop down menu code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar*/
 
-/* The dropdown container */
-.dropdown {
-    float: left;
-    overflow: hidden;
-    color: black;
-  }
+/* The dropdown containers */
+.dropdown1, .dropdown2 {
+  float: left;
+  overflow: hidden;
+  color: black;
+}
   
   /* Dropdown button */
-  .dropdown .dropbtn {
+  .dropdown1 .dropbtn1, .dropdown2 .dropbtn2 {
     border: none;
     outline: none;
     color: black;
@@ -184,17 +184,17 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
   }
   
   /* Dropdown content (hidden by default) */
-  .dropdown-content {
+  .dropdown-content1, .dropdown-content2 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .dropdown-content1 a, .dropdown-content2 a {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -202,14 +202,16 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
     display: block;
     text-align: left;
   }
+
   
   /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+  .dropdown-content1 a:hover, .dropdown-content2 a:hover {
     background-color: #ddd;
+    display: block;
   }
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+  .dropdown1:hover .dropdown-content1, .dropdown2:hover .dropdown-content2 {
     display: block;
   }
   
