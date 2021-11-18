@@ -184,9 +184,9 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
   }
   
   /* Dropdown content (hidden by default) */
-  .dropdown-content {
+  .dropdown-content1, .dropdown-content2 {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -194,7 +194,7 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .dropdown-content1 a, .dropdown-content2 a {
     float: none;
     color: black;
     padding: 12px 16px;
