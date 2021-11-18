@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<!-- icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/mystyles.css">
 <link rel="stylesheet" href="style.css"> <!--css link added by Terrie-Ann-->
@@ -40,21 +41,27 @@ body, html {
     - Changes: Added the logo png in the template. 
     - Source of Image: I, the author Aida, created the logo. 
     -------------------------- -->
+
+    <!-- home (logo link), about, services, projects gallery, locations, team, resources -->
     <div class="logo">
-      <a href="#home"><img src="images/logo.png" alt="logo"></a> 
+      <a href="index.html"><img src="images/logo.png" alt="logo"></a> 
     </div>
     <!--** End Owner: Aida Tuhcic ***-->
+
+    <!-- Nav bar links and icons by Rebecca Wilkins-->
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+
+      <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i>ABOUT</a>
+      <a href="sevices.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>SERVICES</a>
       <!--projects button added by Terrie-Ann 17/11/2021-->
-      <a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROJECTS GALLERY</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="projects.html" class="w3-bar-item w3-button"><i class="fa fa-image"></i></i>GALLERY</a>
+      <a href="locations.html" class="w3-bar-item w3-button"><i class="fa fa-map-marker"></i></i>LOCATIONS</a>
+      <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-users"></i>STAFF</a>
+      <a href="resources.html" class="w3-bar-item w3-button"><i class="fa fa-book"></i>RESOURCES</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
+    
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
@@ -64,12 +71,13 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
   <!--projects button added by Terrie-Ann 17/11/2021-->
-  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS GALLERY</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+  <a href="locations.html" onclick="w3_close()" class="w3-bar-item w3-button">LOCATIONS</a>
+  <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">STAFF</a>
+  <a href="resources.html" onclick="w3_close()" class="w3-bar-item w3-button">RESOURCES</a>
 </nav>
 
 <!-- Header with full-height hero image by Sunayana -->
