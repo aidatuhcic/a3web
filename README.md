@@ -26,6 +26,12 @@ REBECCA
   - template HTML and CSS files submitted to the repository
 
   Due: Nov 13 /2021 3pm
+TERRIE-ANN
+
+Realistic goals:
+- Mock up design for teams and project gallery pages
+Measures of progress:
+- added 2 page mock up for review by team
 
 **Before following meeting (Wed): TEMPLATE DUE BEFORE THURSDAY LAB FOR BONUS 2%**
 
@@ -54,9 +60,15 @@ TERRIE-ANN
 
   Realistic Goal(s): 
   - design footer at bottom of page
+  - update team section
+  - create project gallery and team (staff) pages to link to home page
 
   Measures of progress:
-   - working links to social media sites
+   - icons and team images added to image folder
+   - working links to social media sites from image icons
+   - footer in place and matching colour pallette
+   - html and css pages updated for footer and connecting pages
+
 
   Due: 17/11/2021
 
