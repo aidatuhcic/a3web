@@ -149,9 +149,12 @@ html, body {
 
 /* Footer style added by Terrie-Ann 17/11/2021 */
 footer { /*footer by Terrie-Ann 15/11/2021*/
-    background-color: lightgreen; /* Footer background colour changed by Terrie-Ann to coordinate with hero image*/
+    background-color: #6fc;/*Footer background colour updated by Terrie-Ann 17/11/2021*/
     font-style: 'Raleway';
     font-size: 12px;
+    text-align: center;
+    
+
 }
     h3 { /*style updated by Terrie-Ann 15/11/2021*/
         font-style: 'Raleway';
