@@ -158,8 +158,8 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
 }
     h3 { /*style updated by Terrie-Ann 06/12/2021*/
         font-family: "Raleway", sans-serif;
-        font-size: 15px;
-        color: black;   
+        font-size: 20px;
+        font-weight: 700;   
     }
 
 /*Drop down menu styling by Rebecca*/
@@ -239,76 +239,24 @@ body, html {
 .container {
   padding:128px 16px;
 }
-* {
-  box-sizing: border-box;
-}
+
 /*Make images and bio appear in column form*/
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-  font-family: "Raleway", sans-serif;
-  background-color: rgb(149, 225, 250);
-  border-style: solid;
-  border-color: black;
-}
-
-/* Image floats */
-.padding::after {
-  content: "";
-  clear: both;
-  display: table;
-  align-content: center;
-}
-
-/* Transparent title hover over */
-
-
-.card {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-}
 
 .image {
   display: block;
   width: 100%;
-  border:10px outset silver;
-  text-align: center;  
-  width: 100%
-  
+  border:5px outset silver;
+  align-content: center;
 }
-
-.content {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1; 
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-.card:hover .overlay {
-  opacity: 1;
-}
-.gray {
-  font-family: "Raleway", sans-serif;
-  color: lightslategray
-}
-
-.black {
-  font-family: "Raleway", sans-serif;
-  color: black;
-}
-
 
 .w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large {
-  display:none
+  display:none;
 }
 
+.w3-row-padding {
+  margin-top:64px;
+
+}
+.w3-card {
+  background-color: lightblue;
+}
