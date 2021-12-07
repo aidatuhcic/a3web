@@ -31,7 +31,7 @@ html, body {
 /* End Owner: Aida Tuhcic */
 
 /*Hero image style by Sunayana*/
-.bgimg-1 {
+#home {
   background-position: center;
   background-size: cover;
   min-height: 25%;
