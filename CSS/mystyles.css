@@ -495,6 +495,7 @@ div.desc {
           https://www.javatpoint.com/how-to-change-the-font-in-css
           https://www.w3schools.com/css/css3_buttons.asp
 ******************/
+/* Main css for the text alignment in the resources page, 8 Dec 2021 */
 div.resources {
   text-align: left;
   width: 75%;
@@ -503,6 +504,7 @@ div.resources {
   padding: 25px 50px 50px 150px;
 } 
 
+/* Main css for the text alignment in the about page, 8 Dec 2021 */
 div.who {
   text-align: left;
   font-weight: bold;
@@ -514,7 +516,7 @@ div.who {
   background: rgba(210,248,210, 0.1);
   background-position:center;  
 } 
-
+/* Main css for the the contact us button in the about page, 8 Dec 2021 */
 div.cont {
   border: none;
   padding: 10px;
