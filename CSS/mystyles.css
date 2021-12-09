@@ -194,6 +194,70 @@ main {
 min-height: 100vh;
 }
 
+
+/* about */ 
+.w3-container-about {
+    font-family: 'Raleway', sans-serif;
+    padding:128px 16px;
+    line-height: 30px; 
+    line-height: 45px; 
+    background: #9dc3c3;
+    color: #ffffff;  
+}
+
+.title-about {
+      font-family: 'Raleway', sans-serif;
+      font-size: 2.5em;
+      font-weight: bold; 
+}
+
+.button-about {
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+      padding: 10px;
+      color: #ffffff; 
+      background: #000000;
+}
+
+.w3-col img {
+    width: 700px; 
+    height: 394px; 
+}
+
+/* services */
+.w3-center-services {
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    font-size: 2.5em; 
+    font-weight: bold; 
+}
+
+
+.w3-center-services-tag{
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    line-height: 90px; 
+    font-size: 1.3em; 
+    font-style: italic;
+}
+
+
+.w3-container-services {
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px; 
+    line-height: 45px; 
+    padding:128px 16px;
+    background: #a9caca;
+    color: #ffffff;  
+
+}
+
+.w3-row {
+    text-align: 50%; 
+    margin-top:64px"
+}
+
+
 /* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 /* Footer style added by Terrie-Ann 17/11/2021 */
 .footer-container {
