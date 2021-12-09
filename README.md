@@ -163,8 +163,9 @@ SUNAYANA
   
   Due: 08/12/21 
 
+everyone: add finalized documents to individual GitHub repositories
+
 **Potential steps if we had more time**
 
 - more research done to learn how to perfect the navigation bar
 
-everyone: add finalized documents to individual GitHub repositories
