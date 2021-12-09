@@ -362,12 +362,11 @@ footer img {
 /***************** 
 * Owner : Terrie- Ann 
 * Date  : Dec 6 (final)
-* From  : 
+* Inspiration from: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
 ******************/
 /*Container holds teams section*/
 .container {
   padding:128px 16px;
-  margin-top: 5px;
 }
 
 /*Make images and bio appear in column form*/
@@ -378,7 +377,19 @@ footer img {
   height: 100%;
   border:5px outset silver;
 }
+
+.w3-sidebar.w3-bar-block.w3-black.w3-card.w3-animate-left.w3-hide-medium.w3-hide-large {
+  display:none;
+}
+
+.w3-col.l3.m6.w3-margin-bottom {
+  height: 200px;
+}
+.w3-row-padding {
+  margin-top:64px;
+  margin-bottom:200px;
   
+}
 /*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
 div.card1 {
   background-color: #85B4B4;
@@ -389,7 +400,7 @@ div.card2 {
   background-color: #85B4B4;
   height: 100px;
 }
-
+/*Provides equal spacing for each card*/
 div.cardgap1 {
   display: grid;
   grid-template-columns: auto;
@@ -408,12 +419,11 @@ div.cardgap3 {
 div.cardgap4 {
   display: grid;
   grid-template-columns: auto;
-  gap: 94px;
+  gap: 92px;
 }
 /*This gives the heading for each section of the teams and projects pages their own style*/
 .team {
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
 }
 /*This contains the gallery section contents*/
 .textalign {
@@ -423,7 +433,6 @@ div.cardgap4 {
   font-family: 'Raleway', sans-serif;
   margin-top:64px;
   margin-bottom:64px;
-  font-weight: bold;
 }
 /*To give the images their dimensions and positions, animations and appearance*/
 div.map {
