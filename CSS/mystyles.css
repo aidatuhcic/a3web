@@ -334,6 +334,32 @@ footer img {
 /* End Owner: Terrie-Ann */
 
 /***************** 
+* Owner : Sunayana
+* Date  : Dec 9 (final)
+* From  : https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+  Comment: This was done to fix the error we were experiencing because of the back to top button
+******************/
+#back {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#back:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* End Owner: Sunayana Sashikumar */
+/***************** 
 * Owner : Rebecca
 * Date  : Nov 17 (v1)
 * From  : https://www.w3schools.com/howto/howto_css_list_without_bullets.asp
