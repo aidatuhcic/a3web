@@ -266,7 +266,8 @@ footer img {
   border:5px outset silver;
 }
   
-
+  
+}
 div.card1 {
   background-color: #85B4B4;
   height: 500px;
@@ -295,7 +296,7 @@ div.cardgap3 {
 div.cardgap4 {
   display: grid;
   grid-template-columns: auto;
-  gap: 93px;
+  gap: 42px;
 }
 .team {
   font-family: 'Raleway', sans-serif;
@@ -338,6 +339,7 @@ div.desc {
   text-align: center;
 }
 
+
 /* Two image container */
 
 * {
@@ -359,6 +361,21 @@ div.desc {
   clear: both;
   display: table;
 }
+
+/***************** 
+* Owner : Sunayana Sashikumar
+* Date  : Dec 8 (final)
+* From  : 
+******************/
+div.resources {
+  text-align: left;
+  width: 50%;
+} 
+div.resources {
+  text-align: left;
+  width: 50%;
+} 
+/* End Owner: Sunayana Sashikumar */
 /*End Owner - Terrie-Ann*/
 /* KEEP NAV CSS AT THE END THANK YOU! */
 /* Edited by Aida on December 7th will update/explain with more detailed comments and sources! */
