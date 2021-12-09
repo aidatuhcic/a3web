@@ -116,8 +116,9 @@ Editing/Proofreading - assign to group members
 everyone: add finalized documents to individual GitHub repositories
 
 Plan FINAL Website
+
 TERRIE-ANN
- Realistic Goals - Achieved
+Realistic Goal(s):
  - Team (staff) and Projects Gallery pages created. CSS added to style pages.
  - Images for gallery and team members uploaded to images folder.
  - Comments added for HTML, CSS, JS contents respectively.
@@ -141,7 +142,7 @@ Measure(s) of progress:
 - Functioning Services and Locations pages
 - HTML comments explaining each section of code
 
-Due: Dec 8 / 2021
+Due: 08/12/21
 
 SUNAYANA
 
