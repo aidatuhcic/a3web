@@ -116,16 +116,17 @@ everyone: add finalized documents to individual GitHub repositories
 
 Due: December 08, 2021:
 TERRIE-ANN
-  Realistic Goals - Achieved
+ Realistic Goals - Achieved
  - Team (staff) and Projects Gallery pages created. CSS added to style pages.
  - Images for gallery and team members uploaded to images folder.
  - Comments added for HTML, CSS, JS contents respectively.
  - Respondus design applied to (and checked) on all pages.
  - Grammar and spelling checks done.
  - Website added to main repository and personal respository.
-  Measure(s) of progress:
+ - Checked for language code error.
+ Measure(s) of progress:
  - Projects Gallery page works and functions well.
- - Team (staff) page not functioning as imagined.
+ - Team (staff) page works and functions well.
 
 REBECCA
 Realistic Goal(s): 
