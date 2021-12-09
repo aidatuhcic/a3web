@@ -251,6 +251,125 @@ footer img {
 .padding {padding:25px 16px;
 }
 
+/*Team Page CSS. Owner: Terrie-Ann. December 6, 2021.*/
+.container {
+  padding:128px 16px;
+  margin-top: 64px;
+}
+
+/*Make images and bio appear in column form*/
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border:5px outset silver;
+}
+
+.w3-sidebar.w3-bar-block.w3-black.w3-card.w3-animate-left.w3-hide-medium.w3-hide-large {
+  display:none;
+}
+
+.w3-col.l3.m6.w3-margin-bottom {
+  height: 200px;
+}
+.w3-row-padding {
+  margin-top:64px;
+  margin-bottom:200px;
+  
+}
+div.card1 {
+  background-color: #85B4B4;
+  height: 500px;
+} 
+
+div.card2 {
+  background-color: #85B4B4;
+  height: 100px;
+}
+
+div.cardgap1 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 50px;
+}
+div.cardgap2 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 30px;
+}
+div.cardgap3 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 100px;
+}
+div.cardgap4 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 42px;
+}
+.team {
+  font-family: 'Raleway', sans-serif;
+}
+.textalign {
+  text-align: center;
+  border: 3px solid black;
+  background-color: #85B4B4;
+  font-family: 'Raleway', sans-serif;
+  margin-top:64px;
+  margin-bottom:64px;
+}
+
+div.map {
+  margin: 5px;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+div.map:hover {
+  border: 5px solid #85B4B4;
+}
+
+div.map img {
+  width: 100%;
+  
+}
+ div.map img:hover {
+    transform: scaleX(+1);
+  }
+  div.map img {
+  border-radius: 8px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* Two image container */
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 8px;
+  display: block;
+}
+.row {
+  padding: 0 16px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*End Owner - Terrie-Ann*/
 /* KEEP NAV CSS AT THE END THANK YOU! */
 /* Edited by Aida on December 7th will update/explain with more detailed comments and sources! */
 .topnav {

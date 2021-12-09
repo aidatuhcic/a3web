@@ -1,29 +1,206 @@
-<!DOCTYPE html> <!--Projects Gallery page by Terrie-Ann-->
-<head>
-<title>Project Gallery</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Projects Gallery</h1>
-    <p>
-        We are proud of our myriads of projects completed over the years and we are excited about the ones to come.
-        Our team and partners enjoy collaborating as we embark on these journeys with our clients.
-        Here is a list of our milestone projects.
-
-    </p>
-<!-- Footer by Terrie-Ann. Inspired by w3schools startup template-->
-<!--Social media icons updated by Terrie-Ann 16/11/2021-->
-<!--Footer layout and contents updated by Terrie-Ann 17/11/2021-->
-<footer id="footer">
-    <a href="#home">Back to top</a>
-    <p></p> <!--icon links fixed by Terrie-Ann 16/11/2021-->
-    <a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
-    <p>Copyright &#169 Géoinformatique 2021.</p>
-</footer>
-</body>
-</html>
+<!DOCTYPE html> <!-----Projects Gallery page Owner: Terrie-Ann
+    Updated December 07, 2021----->
+    <html>
+      <title>Géoinformatique - PROJECTS GALLERY</title><!-- Title changed by Aida on November 16th -->
+      <link rel="icon" type="image/png" href="images/favicon.png"/><!-- Fav Icon added by Aida on November 16th-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <!-- icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="CSS/mystyles.css">
+      
+    <body>
+      
+      <!-- I NEED TO EXPLAIN A WHOLE LOT BUT WILL LATER 
+      FOR NOW JUST ADD 
+      Comment: Aida explains this function in the main html page. Please refer back to that, thank you. 
+      -->
+      
+      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources!--> 
+        <div class="logo">
+          <a href="template.html"><img src="images/logo.png" alt="logo"></a> 
+        </div>
+      
+      
+      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
+        <div class="topnav" id="myTopnav">
+               
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa fa-building-o"></i> OUR COMPANY 
+            <i class="fa fa-caret-down"></i>
+          </button>
+      
+          <div class="dropdown-content">
+              <a href="#about"><i class="fa fa-info-circle"></i> ABOUT US</a>
+              <a href="#testimonials"><i class="fa fa-commenting-o"></i> TESTIMONIALS</a>
+              <a href="#team"><i class="fa fa-user"></i> OUR TEAM</a>
+          </a>
+          </div>
+          </div>
+      
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-briefcase"></i> OUR WORK
+              <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#services"><i class="fa fa-th"></i> SERVICES</a>
+            <a href="#gallery"><i class="fa fa-image"></i> PROJECTS GALLERY</a> 
+        </div>
+        </div> 
+      
+            <a href="#locations"><i class="fa fa-map-marker"></i> LOCATIONS</a>
+            <a href="#resources"><i class="fa fa-book"></i> RESOURCES</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      
+      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
+      <!-- Header with full-height hero image by Sunayana -->
+      <!-- inspiration from w3schools https://www.w3schools.com/html/html_images.asp> -->
+      <!-- ----------------------
+          - Owner: Aida Tuhcic 
+          - Date: November 15th 
+          - Changes: Added the slogan and button arrow png in the template. 
+          - Source of Image: I, the author Aida, created the arrow image. 
+          -------------------------- -->
+        <div class="hero-image">
+          <div class="slogan">
+              <h1>Géoinformatique.</h1>
+              <p>"La géoinformatique est magnifique."<p>
+        </div> 
+        <div class="button-arrow">
+              <a href="#gallery"><img src="images/arrowbutton.png" alt="arrow button"></a>
+        </div>
+        </div>
+      <!--** End Owner: Aida Tuhcic ***-->
+    
+    <!-------Summary of compny milestones projects with images
+        Owner: Terrie-Ann 07/12/2021----->
+    <div class="container" id="gallery">
+        <h3 class="team">PROJECTS GALLERY</h3>
+        <p>We are proud of our myriads of projects completed over the years and we are excited about the ones to come. Our team and partners enjoy collaborating as we embark on these journeys with our clients.
+            Here is a list of our milestone projects.
+            </p>
+         <h4 class= "textalign">Upcoming Projects</h4>
+         <div class="row">
+            <div class="column">
+              <div class="map">
+                  <a target="_blank" href="images/certificate.png">
+                    <img src="images/certificate.png" alt="Certificate">
+                  </a>
+                  <div class="desc">Geospatial Certification – December 2021
+                    This is not your typical certificate. Upgrade your credentials by adding an interesting new field or improve on your already impressive resume.
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="map">
+              <a target="_blank" href="images/RiceLake.png">
+                <img src="images/RiceLake.png" alt="Rice Lake">
+              </a>
+              <div class="desc">The art of Aerial Surveys - January 2022
+                A journey into mapping the land boundaries from the sky.
+                Join our team as we take mapping to the skies. 
+              </div>
+            </div>
+          </div>
+                
+    
+        <h4 class= "textalign">Ongoing Projects</h4>
+        <div class="row">
+          <div class="column">
+            <div class="map">
+              <a target="_blank" href="images/Kingston.png">
+                <img src="images/Kingston.png" alt="Toronto">
+              </a>
+              <div class="desc">Cyber Security Control Assessment – December 2021 - January 2022
+                Protecting your database is our business. Get a lock for your GIS software to which only you have the key.
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="map">
+                <a target="_blank" href="images/LandUse.png">
+                  <img src="images/LandUse.png" alt="Mountains">
+                </a>
+                <div class="desc">Disaster Risk Management – November to December 2021
+                  Prevention truly is always better than cure! Stop disasters before they occur with our Disaster Risk Management Geodatabase
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <h4 class= "textalign">Recently Closed Projects</h4>
+        <div class="row">
+          <div class="column">
+          <div class="map">
+            <a target="_blank" href="images/Toronto.png">
+              <img src="images/toronto.png" alt="Mountains">
+            </a>
+            <div class="desc">Urban Sprawl Analysis – September 2021
+              Using GIS applications to determine the factors contributing to the urbanization of the GTA.
+              
+            </div>
+          </div>
+          </div>
+        
+          <div class="column">
+            <div class="map">
+            <a target="_blank" href="images/Spaces.png">
+              <img src="images/Spaces.png" alt="Mountains">
+            </a>
+            <div class="desc">Flood Monitoring – October 2021
+              Join us as we showcase various Geospatial and remote sensing techniques to monitor the low-lying areas of Ottawa prairies and implement mitigation solutions.
+            </div>
+            </div>
+          </div>
+        </div>
+    <!----------End Owner Terrie-Ann---------->
+    
+    <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
+    <!-- Footer by Terrie-Ann. Inspired by w3schools startup template-->
+    <!--Social media icons updated by Terrie-Ann 16/11/2021-->
+    <!--Footer layout and contents updated by Terrie-Ann 17/11/2021-->
+    <div class=footer-container>
+      <footer>
+          <p></p> <!--icon links fixed by Terrie-Ann 16/11/2021-->
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin"></a>
+          <p>Copyright &copy; Géoinformatique 2021.</p>
+      <footer>
+    </div>
+    
+      <script>
+        // Modal Image Gallery
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+          var captionText = document.getElementById("caption");
+          captionText.innerHTML = element.alt;
+        }
+        
+        
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+        
+        function w3_open() {
+          if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+          } else {
+            mySidebar.style.display = 'block';
+          }
+        }
+        
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+      </script>
+      <script src="js/javascript.js"></script>
+    </body>
+    </html>
