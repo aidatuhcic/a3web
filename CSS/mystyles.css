@@ -28,7 +28,7 @@ html, body {
 
 /* logo class */
 .logo {
-    position: absolute; 
+    position: fixed; 
     margin-left: 0px; 
     margin-top: -45px; 
     z-index: 5;
@@ -199,7 +199,7 @@ min-height: 100vh;
 .footer-container {
     position: relative;
     min-width: 100vh;
-
+    padding-top: 190px;
     display: block; 
 }
  
