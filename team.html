@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <title>STAFF</title><!-- Title changed by Aida on November 16th -->
-  <link rel="icon" type="image/png" href="images/favicon.png"/><!-- Fav Icon added by Aida on November 16th-->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <!-- icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="CSS/mystyles.css">
+  <head>
+    <title>STAFF</title><!-- Title changed by Aida on November 16th -->
+    <link rel="icon" type="image/png" href="images/favicon.png"/><!-- Fav Icon added by Aida on November 16th-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/mystyles.css">
+  </head>
+  <body>
+    <a name="top"></a>
+    <!--  Aida  -->
 
-    <body>
+    <!-- Edited by Aida Tuhcic December 7th --> 
+    <!-- Nav bar links and icons by Rebecca Wilkins-->
+    <!-- dropdown menu code from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="logo"></a> 
+    </div>
 
-      <!-- I NEED TO EXPLAIN A WHOLE LOT BUT WILL LATER FOR NOW JUST ADD 
-      Comment: Aida explains this function in the main html page. Please refer back to that, thank you. -->
+    <!-- Edited by Aida Tuhcic December 7th  -->
+    <div class="topnav" id="myTopnav">
 
-      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources!--> 
-      <!-- Nav bar links and icons by Rebecca Wilkins-->
-      <!-- dropdown menu code from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
-      <div class="logo" id="topofpage">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a> 
-      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-briefcase"></i> OUR WORK <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+           <a href="services.html"><i class="fa fa-th"></i> SERVICES</a>
+           <a href="projects.html"><i class="fa fa-image"></i> GALLERY</a>
+        </div> <!-- end div for OUR WORK dropdown -->
+      </div> 
 
-      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
-      <div class="topnav" id="myTopnav">
-        <a href="resources.html"><i class="fa fa-book"></i> RESOURCES</a>
-        <a href="locations.html"><i class="fa fa-map-marker"></i> LOCATIONS</a>
-
-        <div class="dropdown">
-          <button class="dropbtn"><i class="fa fa-briefcase"></i> OUR WORK <i class="fa fa-caret-down"></i></button>
-          <div class="dropdown-content">
-            <a href="services.html"><i class="fa fa-th"></i> SERVICES</a>
-            <a href="projects.html"><i class="fa fa-image"></i> GALLERY</a> 
-          </div> <!-- end div for OUR WORK dropdown -->
-        </div> 
-
-        <div class="dropdown">
-          <button class="dropbtn"><i class="fa fa-building-o"></i> OUR COMPANY <i class="fa fa-caret-down"></i></button>
-          <div class="dropdown-content">
-            <a href="about.html"><i class="fa fa-info-circle"></i> ABOUT US</a>
-            <a href="testimonials.html"><i class="fa fa-commenting-o"></i> TESTIMONIALS</a>
-            <a href="team.html"><i class="fa fa-user"></i> STAFF</a>
-          </div>
-        </div> <!-- end div for OUR COMPANY dropdown -->
-
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-      </div> <!-- end div for top nav bar -->
-
-      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
-      <!-- Header with full-height image by Sunayana -->
-      <!-- inspiration from w3schools https://www.w3schools.com/html/html_images.asp> -->
-      <!-- ----------------------
-          - Owner: Aida Tuhcic 
-          - Date: November 15th 
-          - Changes: Added the slogan and button arrow png in the template. 
-          - Source of Image: I, the author Aida, created the arrow image. 
-          -------------------------- -->
-      <div class="hero-image">
-        <div class="slogan">
-          <h1>STAFF</h1>
-          <p>"La géoinformatique est magnifique."<p>
-        </div> 
-        <div class="button-arrow">
-          <a href="#team"><img src="images/arrowbutton.png" alt="arrow button"></a>
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-building-o"></i> OUR COMPANY <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="about.html"><i class="fa fa-info-circle"></i> ABOUT US</a>
+          <a href="testimonials.html"><i class="fa fa-commenting-o"></i> TESTIMONIALS</a>
+          <a href="team.html"><i class="fa fa-user"></i> STAFF</a>
         </div>
-      </div> <!-- end div for hero image -->
-      <!--** End Owner: Aida Tuhcic ***-->
+      </div> <!-- end div for OUR COMPANY dropdown -->
+      <a href="resources.html"><i class="fa fa-book"></i> RESOURCES</a>
+      <a href="locations.html"><i class="fa fa-map-marker"></i> LOCATIONS</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div> <!-- end div for top nav bar -->
+
+    <!-- Edited by Aida Tuhcic December 7th  -->
+    <!-- Header with full-height image by Sunayana -->
+    <!-- inspiration from w3schools https://www.w3schools.com/html/html_images.asp> -->
+    <!-- ----------------------
+        - Owner: Aida Tuhcic 
+        - Date: November 15th 
+        - Changes: Added the slogan and button arrow png in the template. 
+        - Source of Image: I, the author Aida, created the arrow image. 
+        -------------------------- -->
+    <div class="hero-image">
+      <div class="slogan">
+        <h1>STAFF</h1>
+        <p>"La géoinformatique est magnifique."<p>
+      </div> 
+      <div class="button-arrow">
+        <a href="#team"><img src="images/arrowbutton.png" alt="arrow button"></a>
+      </div>
+    </div> <!-- end div for hero image -->
+    <!--** End Owner: Aida Tuhcic ***-->
 
       
   
-<!-----Team page Owner: Terrie-Ann. December 06, 2021.
+<!-----Team page Owner: Terrie-Ann. Updated December 06, 2021.
 Images generated based on characteristics of team members - from https://generated.photos/faces----->
   <div class="container" id="team">
     <h3 class="team">MEET THE TEAM</h3>
@@ -79,7 +78,7 @@ Images generated based on characteristics of team members - from https://generat
       The other members of staff consist of individuals working under our specialists on different projects.
       Our team celebrates many years of experience in the GIS industry and related fields, with a host of loyal and new clientele.
       All members of staff share one common goal &#8211; to provide the very best GIS solutions to our clients.
-    </p>
+    </p> <!-----To separate cards for each team member to avoid overlapping or extra spacing----->
     <div class="w3-row-padding">
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="card">
@@ -88,11 +87,11 @@ Images generated based on characteristics of team members - from https://generat
             <h3>Aida Tuhcic</h3>
             <p class="w3-opacity">IT Analyst, Quebec City</p>
             <p>Aida is an IT professional, who has been with the company from the inception. She created the initial start up software used today to conduct our spatial analyses. Her work focuses on monitoring the information technology that forms the core of the company. With her skills in GIS applications, Aida manages all the company's database, software, and hardware.</p>
-            <div class="cardgap1">
+            <div class="cardgap1"> <!-----To make cards uniformed, though contents aren't----->
               <div>
-
+<!-----End card for team member 1----->
               </div>
-                <div><a href="locations.html"><img src="images/Contact.png" alt="Contact" class="image"></a></div> 
+                <div><a href="locations.html"><img src="images/Contact.png" alt="Contact" class="image"></a></div> <!-----To link back to locations (contact) page----->
             </div>
           </div>
         </div>
@@ -150,19 +149,19 @@ Images generated based on characteristics of team members - from https://generat
       </div>
     </div>
   </div>
-<!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
+<!-- Edited by Aida Tuhcic December 7th -->
       <!-- Footer by Terrie-Ann. Inspired by w3schools startup template-->
       <!--Social media icons updated by Terrie-Ann 16/11/2021-->
       <!--Footer layout and contents updated by Terrie-Ann 17/11/2021-->
-      <div class= "footer-container">
+      <div class="footer-container">
         <footer>
           <p></p> <!--icon links fixed by Terrie-Ann 16/11/2021-->
           <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
           <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
           <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
           <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin"></a>
-          <p>Copyright &copy; Géoinformatique 2021.</p>
-          <p><a href= #topofpage>back to top</a></p>
+          <p>Copyright &#169; Géoinformatique 2021.</p>
+          <p><a href= #top>back to top</a></p>
         <footer>
       </div> <!-- end div for footer -->
       
