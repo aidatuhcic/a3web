@@ -252,6 +252,7 @@ footer img {
 }
 
 /*Team Page CSS. Owner: Terrie-Ann. December 6, 2021.*/
+/*Container holds teams section*/
 .container {
   padding:128px 16px;
   margin-top: 5px;
@@ -266,8 +267,7 @@ footer img {
   border:5px outset silver;
 }
   
-  
-}
+/*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
 div.card1 {
   background-color: #85B4B4;
   height: 500px;
@@ -296,12 +296,14 @@ div.cardgap3 {
 div.cardgap4 {
   display: grid;
   grid-template-columns: auto;
-  gap: 42px;
+  gap: 94px;
 }
+/*This gives the heading for each section of the teams and projects pages their own style*/
 .team {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
+/*This contains the gallery section contents*/
 .textalign {
   text-align: center;
   border: 3px solid black;
@@ -311,7 +313,7 @@ div.cardgap4 {
   margin-bottom:64px;
   font-weight: bold;
 }
-
+/*To give the images their dimensions and positions, animations and appearance*/
 div.map {
   margin: 5px;
   float: left;
@@ -361,6 +363,7 @@ div.desc {
   clear: both;
   display: table;
 }
+/*End Owner - Terrie-Ann*/
 
 /***************** 
 * Owner : Sunayana Sashikumar
@@ -376,7 +379,7 @@ div.resources {
   width: 50%;
 } 
 /* End Owner: Sunayana Sashikumar */
-/*End Owner - Terrie-Ann*/
+
 /* KEEP NAV CSS AT THE END THANK YOU! */
 /* Edited by Aida on December 7th will update/explain with more detailed comments and sources! */
 .topnav {
