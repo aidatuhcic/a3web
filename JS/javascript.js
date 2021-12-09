@@ -24,3 +24,18 @@ function myFunction() {
     }
   }
 // End Owner: Aida Tuhcic. 
+
+///////////////////////
+// Owner: Sunayana Sashikumar
+// Date: December 9th
+// Date Changed: December 9th 
+//From: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//////////////////////
+//to get the button
+mybutton = document.getElementById("back");
+// code to ensure that when button is clicked on, user is taken back to the top of the page
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+// End Owner: Sunayana Sashikumar
