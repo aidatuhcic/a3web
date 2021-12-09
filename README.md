@@ -103,6 +103,7 @@ SUNAYANA
   - found and solves issue that caused a large gap between the main content and footer of the page
   - looked over teammates pages to offer support
   - add one line of jQuery in the about page
+  
   Due: 08/12/21 
 
 **Potential steps if we had more time**
