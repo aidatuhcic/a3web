@@ -490,14 +490,17 @@ div.desc {
 
 /***************** 
 * Owner : Sunayana Sashikumar
-* Date  : Dec 8 (final)
+* Date  : Dec 8 (final), Dec 9 (edits that didn't commit before)
 * From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_shorthand_4val
           https://www.javatpoint.com/how-to-change-the-font-in-css
+          https://www.w3schools.com/css/css3_buttons.asp
 ******************/
 div.resources {
   text-align: left;
   width: 75%;
   display: block;
+  margin: 5%;
+  padding: 25px 50px 50px 150px;
 } 
 
 div.who {
@@ -505,24 +508,26 @@ div.who {
   font-weight: bold;
   width: 75%;
   display: block;
-  line-height: 2.0;
+  line-height: 2.0; 
   margin: 5%;
   padding: 25px 50px 50px 150px;
-  background-color: #ffffff;
-  opacity: 0.5;
+  background: rgba(210,248,210, 0.1);
+  background-position:center;  
 } 
 
 div.cont {
+  border: none;
+  padding: 10px;
   text-align: center;
+  text-decoration: none;
+  background-color: #e7e7e7; 
   width: 100%;
   display: block;
 } 
 
-div.tree {
-  font-weight: bold;
-} 
 
 /* End Owner: Sunayana Sashikumar */
+
 
 /* KEEP NAV CSS AT THE END THANK YOU! */
 
