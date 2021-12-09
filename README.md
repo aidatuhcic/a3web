@@ -59,18 +59,20 @@ Due: 17/11/2021
 TERRIE-ANN
 
   Realistic Goal(s): 
-  - design footer at bottom of page
+  - update footer design 
   - update team section
-  - create project gallery and team (staff) pages to link to home page
+  - create project gallery and team (staff) page html structure
+  - add css sections to the main file according to what is required for the pages
 
   Measures of progress:
-   - icons and team images added to image folder
-   - working links to social media sites from image icons
-   - footer in place and matching colour pallette
+   - add links to images in html
+   - create html page structure for project gallery and about pages
+   - add css code to ensure images and text are aligned in columns for the team page
+   - add css code to make sure that the images and texts are alugned for the gallery page
    - html and css pages updated for footer and connecting pages
 
 
-  Due: 17/11/2021
+  Due: 06/12/2021
 
 AIDA
 
@@ -84,12 +86,6 @@ AIDA
   - uploaded logo image and fav icon to the repository images folder. 
   - alter HTML/CSS for the template to integrate the logo image, slogan, fav icon and continue arrow image. 
   - added detailed commented code. 
-  - updated and added responsive nav bar when resized.
-  - updated hero image.
-  - updated some parts of the footer.
-  - made nav, footer and hero image from pure css/html/javascript.
-  - added the body section for the homepage and testominials.
-  - made sure page resizes. 
 
 Due: 17/11/2021
            
@@ -116,19 +112,5 @@ SUNAYANA
 
 - more research done to learn how to perfect the navigation bar
 
-REBECCA
-
-Realistic Goal(s): 
-  - Create content for services page and locations page
-  - Edit CSS document to include custom CSS for my two pages
-  - Edit nav bar HTML and CSS to improve design
-  - Ensure pages have adequate HTML comments
-
-Measure(s) of progress:
-  - Functioning Services and Locations pages
-  - HTML comments explaining each section of code
-
-Due: Dec 8 / 2021
-
-EVERYONE: add finalized documents to individual GitHub repositories
+everyone: add finalized documents to individual GitHub repositories
 
