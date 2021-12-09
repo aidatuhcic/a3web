@@ -254,7 +254,7 @@ footer img {
 /*Team Page CSS. Owner: Terrie-Ann. December 6, 2021.*/
 .container {
   padding:128px 16px;
-  margin-top: 64px;
+  margin-top: 5px;
 }
 
 /*Make images and bio appear in column form*/
@@ -270,9 +270,7 @@ footer img {
   display:none;
 }
 
-.w3-col.l3.m6.w3-margin-bottom {
-  height: 200px;
-}
+
 .w3-row-padding {
   margin-top:64px;
   margin-bottom:200px;
@@ -310,6 +308,7 @@ div.cardgap4 {
 }
 .team {
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 .textalign {
   text-align: center;
@@ -318,6 +317,7 @@ div.cardgap4 {
   font-family: 'Raleway', sans-serif;
   margin-top:64px;
   margin-bottom:64px;
+  font-weight: bold;
 }
 
 div.map {
