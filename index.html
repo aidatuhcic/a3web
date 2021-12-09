@@ -12,50 +12,68 @@
       <link rel="stylesheet" href="CSS/mystyles.css">
     </head>
     <body>
+      
+     <!-- ----------------------
+          - Owner: Aida Tuhcic 
+          - Date: December 8th
+          - Changes: Added a new functional navigation header that has been assisted with JavaScript. Will the nav
+                     will resize when the user resizes.
+          - Sources: Some elements are derived from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+          -------------------------- -->
       <a name="top"></a>
-      <!-- I NEED TO EXPLAIN A WHOLE LOT BUT WILL LATER FOR NOW JUST ADD 
-      Comment: Aida explains this function in the main html page. Please refer back to that, thank you. -->
-
-      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources!--> 
       <!-- Nav bar links and icons by Rebecca Wilkins-->
       <!-- dropdown menu code from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+      <!-- ----------------------
+            - Owner: Aida Tuhcic 
+            - Date: November 15th
+            - Changes: Added the logo png in the template. 
+            - Sources: I, the author Aida, created the logo image. 
+       -------------------------- -->
       <div class="logo">
         <a href="index.html"><img src="images/logo.png" alt="logo"></a> 
       </div>
-
-      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
       <div class="topnav" id="myTopnav">
+         
+      <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-building-o"></i> OUR COMPANY 
+        <i class="fa fa-caret-down"></i>
+      </button>
 
-        <div class="dropdown">
-          <button class="dropbtn"><i class="fa fa-briefcase"></i> OUR WORK <i class="fa fa-caret-down"></i></button>
-          <div class="dropdown-content">
-             <a href="services.html"><i class="fa fa-th"></i> SERVICES</a>
-             <a href="projects.html"><i class="fa fa-image"></i> GALLERY</a>
-          </div> <!-- end div for OUR WORK dropdown -->
-        </div> 
+    <div class="dropdown-content">
+        <a href="#about"><i class="fa fa-info-circle"></i> ABOUT US</a>
+        <a href="#testimonials"><i class="fa fa-commenting-o"></i> TESTIMONIALS</a>
+        <a href="#staff"><i class="fa fa-user"></i> STAFF</a>
+    </a>
+    </div>
+    </div>
 
-        <div class="dropdown">
-          <button class="dropbtn"><i class="fa fa-building-o"></i> OUR COMPANY <i class="fa fa-caret-down"></i></button>
-          <div class="dropdown-content">
-            <a href="about.html"><i class="fa fa-info-circle"></i> ABOUT US</a>
-            <a href="testimonials.html"><i class="fa fa-commenting-o"></i> TESTIMONIALS</a>
-            <a href="team.html"><i class="fa fa-user"></i> STAFF</a>
-          </div>
-        </div> <!-- end div for OUR COMPANY dropdown -->
-        <a href="resources.html"><i class="fa fa-book"></i> RESOURCES</a>
-        <a href="locations.html"><i class="fa fa-map-marker"></i> LOCATIONS</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-briefcase"></i> OUR WORK
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="#services"><i class="fa fa-th"></i> SERVICES</a>
+        <a href="#projects"><i class="fa fa-image"></i> GALLERY</a> 
+    </div>
+    </div> 
+
+      <a href="#locations"><i class="fa fa-map-marker"></i> LOCATIONS</a>
+      <a href="#resources"><i class="fa fa-book"></i> RESOURCES</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
       </div> <!-- end div for top nav bar -->
+      <!--** End Owner: Aida Tuhcic ***-->
 
-      <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
       <!-- Header with full-height image by Sunayana -->
       <!-- inspiration from w3schools https://www.w3schools.com/html/html_images.asp> -->
+      
+      
       <!-- ----------------------
-          - Owner: Aida Tuhcic 
-          - Date: November 15th 
-          - Changes: Added the slogan and button arrow png in the template. 
-          - Source of Image: I, the author Aida, created the arrow image. 
-          -------------------------- -->
+            - Owner: Aida Tuhcic 
+            - Date: November 15th/December 8th
+            - Changes: Added the slogan and button arrow png in the template. 
+            - Sources: Some elements are derived from https://www.w3schools.com/w3css/tryw3css_templates_startup.html
+       -------------------------- -->
       <div class="hero-image">
         <div class="slogan">
           <h1>Géoinformatique.</h1>
@@ -67,6 +85,12 @@
       </div> <!-- end div for hero image -->
       <!--** End Owner: Aida Tuhcic ***-->
       
+    <!-- ----------------------
+            - Owner: Aida Tuhcic 
+            - Date: November 15th/December 8th
+            - Changes: Added the about section to the main index.  
+            - Sources: https://www.w3schools.com/w3css/tryw3css_templates_startup.html
+     -------------------------- --> 
     <div class="w3-container-about" id="about">
     <div class="w3-row">
     <div class="w3-col m6">
@@ -82,7 +106,14 @@
     </div>
     </div>
     </div>
+    <!--** End Owner: Aida Tuhcic ***-->
 
+    <!-- ----------------------
+            - Owner: Aida Tuhcic 
+            - Date: November 15th/December 8th
+            - Changes: Added the about section to the main index.  
+            - Sources: https://www.w3schools.com/w3css/tryw3css_templates_startup.html
+    -------------------------- --> 
     <div class="w3-container-services" id="services">
     <div class="w3-center-services">SERVICES.</div>
     <div class="w3-center-services-tag">Services Géoinformatique can do for you!</div>
@@ -97,7 +128,7 @@
       <div class="w3-third">
           <i class="fa fa-database w3-margin-bottom w3-jumbo" aria-hidden="true"></i>
           <p class="w3-large">Surveying and Data Collection.</p>
-          <p>When you don't have the information you need to make your analyses, we can help you determine what data you need and how to best obtain it. For your convenience, our in-house surveying team is able to collect accurate datasets for you.</p>
+          <p>When you don't have the information you need to make your analysis, we can help you determine what data you need and how to best obtain it. For your convenience, our in-house surveying team is able to collect accurate datasets for you.</p>
     </div>
     <div class="w3-third">
         <i class="fa fa-arrows w3-margin-bottom w3-jumbo" aria-hidden="true"></i>
@@ -107,11 +138,19 @@
     </div>
   </div>
 </div>
+<!--** End Owner: Aida Tuhcic ***-->
 
       <!-- Edited by Aida Tuhcic December 7th will update/explain with more detailed comments and sources! -->
       <!-- Footer by Terrie-Ann. Inspired by w3schools startup template-->
       <!--Social media icons updated by Terrie-Ann 16/11/2021-->
       <!--Footer layout and contents updated by Terrie-Ann 17/11/2021-->
+      
+      <!-- ----------------------
+           - Owner: Aida Tuhcic 
+           - Date: November 15th 
+           - Changes: Updated the pngs needed. They are now clearer and easier to view. 
+           - Source: The pngs come from https://pngtree.com/so/social-media (free for commerical and personal use.)
+      -------------------------- -->
       <div class="footer-container">
         <footer>
           <p></p> <!--icon links fixed by Terrie-Ann 16/11/2021-->
@@ -123,8 +162,9 @@
           <p><a href= #top>back to top</a></p>
         <footer>
       </div> <!-- end div for footer -->
+      <!--** End Owner: Aida Tuhcic ***-->
       
-      <!-- Calling Javascript file by Aida -->
+      <!-- Calling Javascript file by Aida on December 7th, 2021. -->
       <script src="JS/javascript.js"></script>
 
     </body>
