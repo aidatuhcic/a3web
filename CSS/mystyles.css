@@ -262,6 +262,7 @@ min-height: 100vh;
   font-family: "Raleway"; 
   font-size: 1.5em;
   margin-right: 25px;
+  text-align: center; 
 }
 
 .fa {
