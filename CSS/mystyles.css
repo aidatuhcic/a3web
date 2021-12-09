@@ -257,30 +257,6 @@ min-height: 100vh;
     margin-top:64px"
 }
 
-/* stars */
-.heading {
-  font-family: "Raleway"; 
-  font-size: 1.5em;
-  margin-right: 25px;
-  text-align: center; 
-}
-
-.fa {
-  font-size: 25px;
-}
-
-.checked {
-  color: #85B4B4;
-}
-
-
-@media (max-width: 400px) {
-  .side, .middle {
-    width: 100%;
-  }
-  .right {
-    display: none;
-  }
 
 /* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 /* Footer style added by Terrie-Ann 17/11/2021 */
@@ -460,24 +436,26 @@ div.desc {
 * From  : 
 ******************/
 div.resources {
-  text-align: right;
+  text-align: left;
   width: 75%;
   display: block;
 } 
 
 div.who {
-  text-align: center;
+  text-align: left;
+  font-weight: bold;
   width: 75%;
   display: block;
   line-height: 2.0;
+  margin: 5%;
   padding: 25px 50px 50px 100px;
   background-color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.5;
 } 
 
 div.cont {
   text-align: center;
-  width: 50%;
+  width: 90%;
   display: block;
 } 
 
