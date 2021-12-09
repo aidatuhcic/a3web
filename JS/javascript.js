@@ -1,4 +1,4 @@
-// Will explain later 
+// Added by Aida on December 8th, 2021
 function myFunction() {
     var x = document.getElementById("myTopnav");
   
