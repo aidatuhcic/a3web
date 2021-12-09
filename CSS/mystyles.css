@@ -507,7 +507,7 @@ div.resources {
   width: 75%;
   display: block;
   margin: 5%;
-  padding-left: 20%;
+  padding-left: 13%;
   padding-top: 0.5%;
 } 
 
@@ -519,9 +519,9 @@ div.who {
   display: block;
   line-height: 2.0; 
   margin: 5%;
-  padding-left: 25%;
+  padding-left: 12%;
   padding-top: 0.5%;
-  padding-right: 25%;
+  padding-right: 12%;
   background: rgba(210,248,210, 0.1);
   background-position:center;  
 } 
