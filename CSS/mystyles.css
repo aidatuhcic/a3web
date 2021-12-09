@@ -465,6 +465,7 @@ div.resources {
   text-align: left;
   width: 75%;
   display: block;
+  padding: 25px 50px 50px 150px;
 } 
 
 div.who {
@@ -474,7 +475,7 @@ div.who {
   display: block;
   line-height: 2.0;
   margin: 5%;
-  padding: 25px 50px 50px 150px;
+  padding: 25px 50px 50px 200px;
   background-color: #ffffff;
   opacity: 0.5;
 } 
