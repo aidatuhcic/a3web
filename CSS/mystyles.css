@@ -443,6 +443,9 @@ div.who {
   width: 75%;
   display: block;
   line-height: 2.0;
+  padding: 25px 50px 50px 100px;
+  background-color: #ffffff;
+  opacity: 0.6;
 } 
 
 div.cont {
