@@ -358,12 +358,9 @@ footer img {
 
 /* End Owner: Rebecca */
 
-/*Team Page CSS. Owner: Terrie-Ann. December 6, 2021.*/
-/***************** 
-* Owner : Terrie- Ann 
-* Date  : Dec 6 (final)
-* Inspiration from: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
-******************/
+/*Team Page CSS. Owner: Terrie-Ann. December 6, 2021.
+*Date: December 06, 2021
+*Inspiration from: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
 /*Container holds teams section*/
 .container {
   padding:128px 16px;
@@ -391,16 +388,24 @@ footer img {
   
 }
 /*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
+div.card {
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 0 8px;
+  display: block;
+  margin-bottom: -200px;
+}
 div.card1 {
   background-color: #85B4B4;
   height: 500px;
 } 
 
 div.card2 {
-  background-color: #85B4B4;
-  height: 100px;
+  width: 100%;
+  height: 100%;
 }
-/*Provides equal spacing for each card*/
+/*Gaps provide equal spacing for each card*/
 div.cardgap1 {
   display: grid;
   grid-template-columns: auto;
@@ -419,7 +424,7 @@ div.cardgap3 {
 div.cardgap4 {
   display: grid;
   grid-template-columns: auto;
-  gap: 92px;
+  gap: 98px;
 }
 /*This gives the heading for each section of the teams and projects pages their own style*/
 .team {
@@ -434,14 +439,14 @@ div.cardgap4 {
   margin-top:64px;
   margin-bottom:64px;
 }
-/*To give the images their dimensions and positions, animations and appearance*/
+/*To give the images their dimensions and positions*/
 div.map {
   margin: 5px;
   float: left;
   width: 100%;
   padding: 5px;
 }
-
+/*To give the images animations and appearance*/
 div.map:hover {
   border: 5px solid #85B4B4;
 }
@@ -473,6 +478,7 @@ div.desc {
   width: 50%;
   padding: 0 8px;
   display: block;
+  
 }
 .row {
   padding: 0 16px;
