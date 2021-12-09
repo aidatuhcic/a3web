@@ -424,7 +424,7 @@ div.cardgap3 {
 div.cardgap4 {
   display: grid;
   grid-template-columns: auto;
-  gap: 98px;
+  gap: 208px;
 }
 /*This gives the heading for each section of the teams and projects pages their own style*/
 .team {
