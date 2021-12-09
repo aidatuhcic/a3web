@@ -84,6 +84,11 @@ AIDA
   - uploaded logo image and fav icon to the repository images folder. 
   - alter HTML/CSS for the template to integrate the logo image, slogan, fav icon and continue arrow image. 
   - added detailed commented code. 
+  - added the fix and update to the hero image.
+  - added the fix and update to the footer.
+  - redid the nav bar and resizing. 
+  - added the about and service section to the homepage.
+  - added the testimonials page. 
 
 Due: 17/11/2021
            
