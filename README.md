@@ -126,3 +126,16 @@ TERRIE-ANN
   Measure(s) of progress:
  - Projects Gallery page works and functions well.
  - Team (staff) page not functioning as imagined.
+
+REBECCA
+Realistic Goal(s): 
+Create content for services page and locations page
+Edit CSS document to include custom CSS for my two pages
+Edit nav bar HTML and CSS to improve design
+Ensure pages have adequate HTML comments
+
+Measure(s) of progress:
+Functioning Services and Locations pages
+HTML comments explaining each section of code
+
+Due: Dec 8 / 2021
