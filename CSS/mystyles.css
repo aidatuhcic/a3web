@@ -25,7 +25,11 @@ html, body {
 * Purpose: The following code down below, formats the logo in place - for it to align with the navigation bar. 
            As well, I also resized the image below. 
 ***********************/
-
+/***************** 
+* Owner : Aida Tuhcic
+* Date  : Nov 15 (v1)
+* From  : 
+******************/
 /* logo class */
 .logo {
     position: fixed; 
@@ -64,6 +68,11 @@ html, body {
 * Purpose: The following code down below, formats the slogan in the center of the hero image. 
            - Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
 ***********************/
+/***************** 
+* Owner : Aida Tuhcic
+* Date  : Nov 15 (v1)
+* From  : 
+******************/
 
 /* slogan */
 .slogan, .h1, .p {
@@ -136,7 +145,11 @@ html, body {
            - The button arrow png acts as a continue button for the user to continue down to next section of the webpage. 
            - Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
 ***********************/
-
+/***************** 
+* Owner : Aida Tuhcic
+* Date  : Nov 15 (v1)
+* From  : 
+******************/
 /* button arrow class */ 
 .button-arrow { 
     position: absolute; 
@@ -189,7 +202,7 @@ html, body {
   }
 }
 
-/* End Owner: Aida Tuhcic */
+
 main {
 min-height: 100vh;
 }
@@ -257,7 +270,12 @@ min-height: 100vh;
     margin-top:64px"
 }
 
-
+/* End Owner: Aida Tuhcic */
+/***************** 
+* Owner : Terrie- Ann edited by: Aida Tuhcic
+* Date  : Nov 17 (v1)
+* From  : 
+******************/
 /* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 /* Footer style added by Terrie-Ann 17/11/2021 */
 .footer-container {
@@ -266,7 +284,6 @@ min-height: 100vh;
     padding-top: 190px;
     display: block; 
 }
- 
 /* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 footer { /*footer by Terrie-Ann 15/11/2021*/
     position: absolute; 
@@ -296,7 +313,13 @@ footer img {
     transform: translate(-10%, 0%); /* Source w3schools. */
   }
 }
+/* End Owner: Terrie-Ann */
 
+/***************** 
+* Owner : Rebecca
+* Date  : Nov 17 (v1)
+* From  : 
+******************/
 /*custom CSS for services and locations pages by Rebecca*/
 .hide-icon {
   visibility:hidden;
@@ -315,7 +338,14 @@ footer img {
 .padding {padding:25px 16px;
 }
 
+/* End Owner: Rebecca */
+
 /*Team Page CSS. Owner: Terrie-Ann. December 6, 2021.*/
+/***************** 
+* Owner : Terrie- Ann 
+* Date  : Dec 6 (final)
+* From  : 
+******************/
 /*Container holds teams section*/
 .container {
   padding:128px 16px;
@@ -429,7 +459,7 @@ div.desc {
 }
 /*End Owner - Terrie-Ann*/
 
-/*End Owner - Terrie-Ann*/
+
 /***************** 
 * Owner : Sunayana Sashikumar
 * Date  : Dec 8 (final)
@@ -466,6 +496,12 @@ div.tree {
 /* End Owner: Sunayana Sashikumar */
 
 /* KEEP NAV CSS AT THE END THANK YOU! */
+
+/***************** 
+* Owner : Aida Tuhcic
+* Date  : Dec 7 (final)
+* From  : 
+******************/
 /* Edited by Aida on December 7th will update/explain with more detailed comments and sources! */
 .topnav {
     background-color: #ffffff;
@@ -587,3 +623,4 @@ div.tree {
     text-align: center;
   }
 }
+/* End Owner: Aida Tuhcic */
