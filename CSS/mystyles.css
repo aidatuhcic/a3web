@@ -257,6 +257,30 @@ min-height: 100vh;
     margin-top:64px"
 }
 
+/* stars */
+.heading {
+  font-family: "Raleway"; 
+  font-size: 1.5em;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: #85B4B4;
+}
+
+
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
 
 /* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 /* Footer style added by Terrie-Ann 17/11/2021 */
