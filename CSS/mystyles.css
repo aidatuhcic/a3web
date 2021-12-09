@@ -304,7 +304,7 @@ div.cardgap3 {
 div.cardgap4 {
   display: grid;
   grid-template-columns: auto;
-  gap: 42px;
+  gap: 93px;
 }
 .team {
   font-family: 'Raleway', sans-serif;
@@ -346,7 +346,6 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
 
 /* Two image container */
 
