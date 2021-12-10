@@ -133,15 +133,19 @@ Measure(s) of progress:
  Due: December 08, 2021
 
 REBECCA
-- Realistic Goal(s): 
+Realistic Goal(s): 
 - Create content for services page and locations page
 - Edit CSS document to include custom CSS for my two pages
 - Edit nav bar HTML and CSS to improve design
-- Ensure pages have adequate HTML comments
+- Ensure services and locations pages have adequate HTML comments
+- Edit pages to ensure consistent formatting and working links
+- Fixed validator errors
+- Minor edits
 
 Measure(s) of progress:
 - Functioning Services and Locations pages
 - HTML comments explaining each section of code
+- Consistent design
 
 Due: 08/12/21
 
