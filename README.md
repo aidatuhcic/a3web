@@ -126,6 +126,7 @@ Realistic Goal(s):
  - Grammar and spelling checks done.
  - Website added to main repository and personal respository.
  - Checked for language code error.
+
 Measure(s) of progress:
  - Projects Gallery page works and functions well.
  - Team (staff) page works and functions well.
