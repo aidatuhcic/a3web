@@ -161,6 +161,7 @@ SUNAYANA
   - found and solves issue that caused a large gap between the main content and footer of the page
   - looked over teammates pages to offer support
   - add one line of jQuery in the about page
+  - alter html to fix the issue with the back to top anchor located in the footeer
   
   Due: 08/12/21 
 
