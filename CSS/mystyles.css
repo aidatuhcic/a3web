@@ -111,7 +111,6 @@ Will put extra comments down below displaying which elements.
 /* media query for slogan paragraph element */
 @media all and (min-width: 414px) and (max-width: 767px) {
   .slogan p {
-    padding-top: -25%; 
     font-size: 1.2em; 
   }
 }
@@ -119,7 +118,6 @@ Will put extra comments down below displaying which elements.
 /* media query for slogan paragraph element */
 @media all and (min-width: 414px) and (max-width: 900px) {
   .slogan p {
-    padding-top: -25%; 
     font-size: 1.2em; 
   }
 }
@@ -344,7 +342,7 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
 
     background-color: #85B4B4;/*Footer background colour updated by Terrie-Ann 17/11/2021*/
     color: #ffffff; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 1em;
     text-align: center; 
 }
