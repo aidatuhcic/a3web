@@ -288,6 +288,35 @@ min-height: 100vh;
     text-align: 50%; 
     margin-top:64px"
 }
+
+/* testimonials */
+
+.container-review {
+  border: 0.5px solid #000000;
+  color: #ffffff; 
+  background-color: #85B4B4;
+  border-radius: 1px;
+  padding: 20px;
+  margin: 16px 0
+}
+
+.container-review::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container-review span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+  .container-review {
+      text-align: center;
+  }
+}
+
 /* End Owner: Aida Tuhcic */
 /***************** 
 * Owner : Terrie- Ann edited by: Aida Tuhcic
