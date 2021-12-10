@@ -138,30 +138,83 @@
       <!-- class attribute, groups all elements in this class together. -->    
       <div class="button-arrow">
           <!-- a href, when clicked on, the user will go be brought to the about section of the index page. -->
-          <a href="#stars"><img src="images/arrowbutton.png" alt="arrow button"></a>
+          <a href="#testimonials"><img src="images/arrowbutton.png" alt="arrow button"></a>
       </div>
       </div> 
       <!-- end div for hero image -->
       <!--** End Owner: Aida Tuhcic ***-->
       
       <!-- ----------------------
-      - Owner: Aida Tuhcic 
-      - Date: December 8th
-      - Purpose: The purpose of this section was to make a review page for the company. It's very lack luster, I'm aware. 
-      There was a time crunch, and decided place something within it was better than nothing. I take blame for this. 
-      - Sources: https://www.w3schools.com/howto/howto_css_user_rating.asp
+      - Testimonials Written By: Rebecca, Sunayana and Terrie-Anne. 
+      - Edited the html coding: Aida Tuhcic.
+      - Original Date: December 8th.
+      - Date Change: December 9th. 
+      - Purpose: The purpose of this section was to make a testimonial page for the company.
+      - Sources: Some elements are derived from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials
       -------------------------- -->
-      <!-- id refers to the unique page and applies to that single element (stars). -->
-      <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
-      <span class="heading" id="stars">Our Client Reviews.</span>
-      <span class="fa fa-star checked"></span>    
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <!-- paragraph tag -->
-      <p>5 average based on 200 reviews.</p>
-      <!-- end span class for stars -->
+      <!-- class attribute, groups all elements in this class together. --> 
+      <!-- id refers to the unique page and applies to that single element (myTopnav). -->
+      <div class="testimonials" id="testimonials"></div>
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="container-review">
+          <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
+          <p><span>Michael Luhow &#8211; Canadian Geographers Web Inc.</span></p>
+          <!-- paragraph tag -->
+          <p>" The staff at G&#233;oinformatique were friendly and helped my company integrate several web-based maps into our existing website. 
+               They were able to start working on our project right away and finished before their estimated deadline. 
+               Everything works perfectly and our customers have already begun commenting on how much more user-friendly the website is. "</p>
+      </div>
+
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="container-review">
+          <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
+          <p><span>Shannon Atkinsonn &#8211; Sustainable Engineering Solutions.</span></p>
+          <!-- paragraph tag -->
+          <p>" I usually have issues with any GIS analysis because of the amount of time they take. 
+               It feels like too much effort all too often. This time though I was very surprised, the team did an amazing job and kept on schedule just as promised. 
+               Looking forward to working with them in the future. "</p>
+      </div>  
+
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="container-review">
+          <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
+          <p><span>Elle Petronzki &#8211; Litman and Associates Inc.</span></p>
+          <!-- paragraph tag -->
+          <p>"Excellent service at unbeatable prices. I was satisfied with my flood risk analysis, and I will be returning to get my flood mapping done. "</p>
+      </div>  
+      
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="container-review">
+          <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
+          <p><span>Fern Ship &#8211; University of Mistletoe.</span></p>
+          <!-- paragraph tag -->
+          <p>" I have been working with them since they began and have not worked with anyone else because of how good they are at their job. 
+               I am always impressed regardless of how many ever times I work with them. 
+               You can sense the passion of the G&#233;informatique team when you are around them. 
+               Makes me excited about my work as well. I hope the best for them on all their future endeavor. "</p>
+      </div>  
+
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="container-review">
+          <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
+          <p><span>Sarah Goodman &#8211; Goodman & Amen Associates Inc.</span></p>
+          <!-- paragraph tag -->
+          <p>" I have been working with them since they began and have not worked with anyone else because of how good they are at their job. 
+               I am always impressed regardless of how many ever times I work with them. 
+               You can sense the passion of the G&#233;informatique team when you are around them. 
+               Makes me excited about my work as well. I hope the best for them on all their future endeavor. "</p>
+      </div>  
+
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="container-review">
+          <!-- span class refers to an inline container. inline elements are elements that occupy the territory of the tags defining the content. -->
+          <p><span>Lucille Mather &#8211; Township of Kamil.</span></p>
+          <!-- paragraph tag -->
+          <p>" After hiring them to create several land-use maps for our city, we were so impressed with the quality of the work that we expanded the scope of the job to include making the maps into decorative prints, which now hang in our lobby. 
+               They were very flexible with last-minute requests, and even gave us a discount on the prints since they had already done much of the mapping. 
+               Thanks, G&#233;oinformatique! "</p>
+      </div> 
+      <!-- end div for testimonials -->
 
       <!-- Footer by Terrie-Ann. Inspired by w3schools startup template -->
       <!-- Social media icons updated by Terrie-Ann 16/11/2021 -->
@@ -190,12 +243,14 @@
             <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
             <!-- a href, when clicked on - user will be brought to linkedin.com -->  
             <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin"></a>
-            <!-- copyright. -->  
-            <p>Copyright &#169; G&#233;oinformatique 2021.</p>
             <!-- a href, links back to the top of the index web page, added by Sunayana -->
             <!-- issues fixed using this link: https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only/32102822 -->
             <a id="topbutton" href="#top">Back to Top</a>
             <!--** End Owner: Sunayana Sashikumar ***-->
+            <!-- copyright. -->  
+            <p>Copyright &#169; G&#233;oinformatique 2021.</p>
+            <!-- a href, links back to the top of the index web page. -->
+            <p><a href= #top>back to top</a></p>
         </footer>
         <!-- end of the footer. -->    
       </div> 
