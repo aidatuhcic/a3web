@@ -375,6 +375,7 @@ footer img {
 * From  : https://www.w3schools.com/howto/howto_css_list_without_bullets.asp
 ******************/
 /*custom CSS for services and locations pages by Rebecca*/
+
 .hide-icon {
   visibility:hidden;
 }
@@ -383,14 +384,21 @@ footer img {
   list-style: none;
 }
 
-.location-name {font-weight: bold;
+.location-name {
+  font-weight: bold;
 }
 
-.services-list, .loc-list {display: inline-block;
+.services-list, .loc-list {
+  display: inline-block;
 }
 
-.padding {padding:25px 16px;
+.padding {
+  padding:25px 16px;
 }
+
+.rw-row-padding{
+  padding:0 8px
+  }
 
 /* End Owner: Rebecca */
 
