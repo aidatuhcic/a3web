@@ -344,7 +344,7 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
 
     background-color: #85B4B4;/*Footer background colour updated by Terrie-Ann 17/11/2021*/
     color: #ffffff; 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;
     text-align: center; 
 }
