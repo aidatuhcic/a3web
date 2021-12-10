@@ -1,6 +1,9 @@
 @charset "UTF-8";
-/* Insert custom CSS to override the template CSS */
+/* Added by Aida Tuhcic on November 15th, * is an universal selector */
+/* Following text below is explained by Aida Tuhcic on December 9th. */
 * {
+  /* box sizing sets the total width and height of the page. */
+  /* border box includes content, border and padding of the width and height properties.  */
   box-sizing: border-box; 
 }
 
@@ -9,9 +12,9 @@ html, body {
     position: absolute;
     height: 100%; 
     width: 100%; 
-    overflow-x: hidden;  
+    overflow-x: hidden; /* specifics to clip content, add a scroll bar or display/hide overflow content (extra space). */
     font-family: 'Raleway', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Added by Rebecca on December 8th */
 }
 
 /***********************
@@ -19,13 +22,10 @@ html, body {
 * Date: November 15th 
 * Comments: Added css elements to the logo. 
 * Purpose: The following code down below, formats the logo in place - for it to align with the navigation bar. 
-           As well, I also resized the image below. 
+As well, I also resized the image below. 
+* From: I, the author, Aida. I played around until I found the proper elements.
 ***********************/
-/***************** 
-* Owner : Aida Tuhcic
-* Date  : Nov 15 (v1)
-* From  : From Aida Tuhcic.
-******************/
+
 /* logo class */
 .logo {
     position: absolute; 
@@ -43,9 +43,9 @@ html, body {
 * Owner: Aida Tuhcic
 * Date: November 15th 
 * Comments: Added css elements to the logo. 
-* Purpose: The following code down below, formats the hero in place.
+* Purpose: The following code down below, formats the hero image in place.
+* Source: Some elements are from https://www.w3schools.com/howto/howto_css_hero_image.asp
 ***********************/
-/* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 /*Hero image style by Sunayana*/
 .hero-image { 
     height: 100%; 
@@ -54,7 +54,7 @@ html, body {
     background-size: cover;
     background-position: no-repeat; 
     min-height: 10%;
-    z-index: 2;
+    z-index: 2; /* z-index refers to property of stacked element. */
 }
 /* End Owner: Aida Tuhcic */
 
@@ -63,19 +63,13 @@ html, body {
 * Date: November 15th 
 * Comments: Added css elements to the slogan. 
 * Sources: Some elements are derived from https://www.w3schools.com/howto/howto_css_hero_image.asp, however not all.
-           Will put extra comments down below displaying which elements. 
-           - The translate element down below allows for an element to be repositioned in a vertical/horizontal direction.
-           - The reason I used it was to align the slogan in the center of the hero image.
-           - Used inspect tool on the browser to figure out the right dimensions for the media queries.  
+Will put extra comments down below displaying which elements. 
+- The translate element down below allows for an element to be repositioned in a vertical/horizontal direction.
+- The reason I used it was to align the slogan in the center of the hero image.
+- Used inspect tool on the browser to figure out the right dimensions for the media queries.  
 * Purpose: The following code down below, formats the slogan in the center of the hero image. 
-           - Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
+- Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
 ***********************/
-/***************** 
-* Owner : Aida Tuhcic
-* Date  : Nov 15 (v1)
-* From  : Aida Tuhcic and w3schools.
-******************/
-
 /* slogan */
 .slogan, .h1, .p {
   color: #ffffff;
@@ -86,7 +80,7 @@ html, body {
   left: 50%;  
   width: 100%; 
   transform: translate(-50%, -50%); /* Source w3schools. */
-  z-index: 3;
+  z-index: 3; /* z-index refers to property of stacked element. */
 }
 
 /* h1 element located in slogan class */
@@ -131,7 +125,6 @@ html, body {
     font-size: 1.2em; 
   }
 }
-
 /* End Owner: Aida Tuhcic */
 
 /***********************
@@ -139,19 +132,15 @@ html, body {
 * Date: November 15th 
 * Comments: Added css elements to the button arrow png located in the hero image. 
 * Sources: Some elements are derived from https://www.w3schools.com/howto/howto_css_hero_image.asp, however not all.
-           Will put extra comments down below displaying which elements. 
-           - The translate element down below allows for an element to be repositioned in a vertical/horizontal direction.
-           - The reason I used it was to align the button arrow png in the center of the hero image. 
-           - Used inspect tool on the browser to figure out the right dimensions for the media queries. 
+Will put extra comments down below displaying which elements. 
+- The translate element down below allows for an element to be repositioned in a vertical/horizontal direction.
+- The reason I used it was to align the button arrow png in the center of the hero image. 
+- Used inspect tool on the browser to figure out the right dimensions for the media queries. 
 * Purpose: The following code down below, formats the button arrow png in the center of the hero image. 
-           - The button arrow png acts as a continue button for the user to continue down to next section of the webpage. 
-           - Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
+- The button arrow png acts as a continue button for the user to continue down to next section of the webpage. 
+- Also added media queries, for the text to render properly when a user changes devices or their browser viewport.  
 ***********************/
-/***************** 
-* Owner : Aida Tuhcic
-* Date  : Nov 15 (v1)
-* From  : Aida Tuhcic and w3schools.
-******************/
+
 /* button arrow class */ 
 .button-arrow { 
     position: absolute; 
@@ -213,15 +202,10 @@ min-height: 100vh;
 /***********************
 * Owner: Aida Tuhcic
 * Date: November 15th 
-* Comments: Added css elements to the slogan. 
-* Sources: Some elements are derived from https://www.w3schools.com/w3css/tryw3css_templates_startup.html, however not all.
+* Comments: Added css to the about and service section of the index page. 
+* Sources: https://www.w3schools.com/w3css/tryw3css_templates_startup.html
 * Purpose: The following code down below, formats the about and services container and its elements.
 ***********************/
-/***************** 
-* Owner : Aida Tuhcic
-* Date  : Nov 15 (v1)
-* From  : Aida Tuhcic and w3schools.
-******************/
 
 /* about container */ 
 .w3-container-about {
@@ -288,9 +272,17 @@ min-height: 100vh;
     text-align: 50%; 
     margin-top:64px"
 }
+/* End Owner: Aida Tuhcic */
 
-/* testimonials */
+/***********************
+* Owner: Aida Tuhcic
+* Date: November 15th 
+* Comments: Added css to the container of the testimonials.
+* Sources: https://www.w3schools.com/howto/howto_css_testimonials.asp
+* Purpose: The following code down below, formats the testimonial's body. 
+***********************/
 
+/* testimonials container */
 .container-review {
   border: 0.5px solid #000000;
   color: #ffffff; 
@@ -300,38 +292,50 @@ min-height: 100vh;
   margin: 16px 0
 }
 
+/* testimonials last child element */
 .container-review::after {
   content: "";
   clear: both;
   display: table;
 }
 
+/* testimonials span */
 .container-review span {
   font-size: 20px;
   margin-right: 15px;
 }
 
-@media (max-width: 600px) {
+/* media query for testimonials container */ 
+@media all and (min-width: 414px) and (max-width: 767px) {
   .container-review {
       text-align: center;
   }
 }
 
+/* media query for testimonials container */ 
+@media all and (min-width: 414px) and (max-width: 900px) {
+  .container-review {
+      text-align: center;
+  }
+}
 /* End Owner: Aida Tuhcic */
+
 /***************** 
 * Owner : Terrie- Ann edited by: Aida Tuhcic
 * Date  : Nov 17 (v1)
 * From  : https://www.w3schools.com/w3css/tryw3css_templates_startup.htm
 ******************/
-/* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
 /* Footer style added by Terrie-Ann 17/11/2021 */
+
+/* footer container */
 .footer-container {
     position: relative;
     min-width: 100vh;
     padding-top: 190px;
-    display: block; 
+    display: block; /* behaviour of the element */
 }
-/* Edited by Aida Tuhcic December 7th will update with more detailed comments. */
+
+/* footer */
 footer { /*footer by Terrie-Ann 15/11/2021*/
     position: absolute; 
     margin: 0; 
@@ -348,10 +352,12 @@ footer { /*footer by Terrie-Ann 15/11/2021*/
     text-align: center; 
 }
 
+/* footer images (pngs) */
 footer img {
     height: 25px; 
 }
 
+/* footer responsive media query */
 @media all and (max-width: 580px) {
   .footer-container {
     position: relative;
@@ -361,6 +367,7 @@ footer img {
   }
 }
 /* End Owner: Terrie-Ann */
+/* End Owner: Aida Tuhcic */
 
 /***************** 
 * Owner : Rebecca
@@ -574,26 +581,22 @@ div.cont {
 /***********************
 * Owner: Aida Tuhcic
 * Date: November 15th 
-* Comments: Added css elements to the slogan. 
+* Comments: Added css elements to the nav bar. 
 * Sources: Some elements are derived from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp, however not all.
 * Purpose: The following code down below, formats the nav bar and resizes to fit the screen.
 ***********************/
-/***************** 
-* Owner : Aida Tuhcic
-* Date  : Dec 7 (final)
-* From  : Aida Tuhcic and w3schools
-******************/
-/* top nav */
+
+/* top nav class */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
     padding: 4px; 
 }
 
-/* top nav a */
+/* top nav a link */
 .topnav a {
     float: right; 
-    display: block;
+    display: block; /* behaviour of the element */
     color: #000000;
     text-align: center;
     padding: 14px 16px;
@@ -601,7 +604,7 @@ div.cont {
     font-size: 15px;
 }
 
-/* active */
+/* active link */
 .active {
     background-color: #85B4B4;
     color: #000000;
@@ -609,13 +612,13 @@ div.cont {
 
 /* dropdown icon */
 .topnav .icon {
-    display: none;
+    display: none; /* behaviour of the element */
 }
 
 /* dropdown */
 .dropdown {
     float: right;
-    display: block; 
+    display: block; /* behaviour of the element */
     overflow: hidden;
 }
 
@@ -634,12 +637,12 @@ div.cont {
 /* dropdown content */
 .dropdown-content {
   font-style: 'Raleway';
-  display: none;
+  display: none; /* behaviour of the element */
   position: absolute;
   background-color: #ffffff;
   min-width: 173px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 1; /* z-index refers to property of stacked element. */
 }
 
 /* dropdown content */
@@ -649,7 +652,7 @@ div.cont {
   color: #000000;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: block; /* behaviour of the element */
   text-align: left;
 }
 
@@ -673,19 +676,19 @@ a:hover {
 /* dropdown */
 .dropdown:hover 
 .dropdown-content {
-  display: block;
+  display: block; /* behaviour of the element */
 }
 
 /* top nav responsive media query */
 @media screen and (max-width: 905px) {
 .topnav a:not(:first-child), .dropdown .dropbtn {
-  display: none;
+  display: none; /* behaviour of the element */
 }
 
 /* top nav icon */
 .topnav a.icon {
   float: right;
-  display: block;
+  display: block; /* behaviour of the element */
 }
 }
 
@@ -701,7 +704,7 @@ a:hover {
 /* top nav responsive */
 .topnav.responsive a {
   float: none;
-  display: block;
+  display: block; /* behaviour of the element */
   text-align: center;
 }
 
@@ -709,7 +712,7 @@ a:hover {
 .topnav.responsive .dropdown {float: none;}
 .topnav.responsive .dropdown-content {position: relative;}
 .topnav.responsive .dropdown .dropbtn {
-  display: block;
+  display: block; /* behaviour of the element */
   width: 100%;
   text-align: center;
 }
